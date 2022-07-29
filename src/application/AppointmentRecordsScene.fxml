@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: CCE6F4;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Main">
+   <children>
+      <Label layoutX="62.0" layoutY="24.0" text="Nurse - Appointment Records" textFill="#130bae">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Button layoutX="25.0" layoutY="342.0" mnemonicParsing="false" onAction="#backToNurseMain" text="Back to Main">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button layoutX="506.0" layoutY="342.0" mnemonicParsing="false" onAction="#logout" text="logout">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button layoutX="120.0" layoutY="114.0" mnemonicParsing="false" onAction="#findRecordsNurse" prefWidth="99.0" text="Find Records">
+         <font>
+            <Font size="13.0" />
+         </font></Button>
+      <ListView fx:id="listOfRecordsN" layoutX="25.0" layoutY="160.0" prefHeight="158.0" prefWidth="289.0" />
+      <Button layoutX="377.0" layoutY="161.0" mnemonicParsing="false" onAction="#printRecords" prefHeight="39.0" prefWidth="151.0" text="Display Record" textFill="#277c21">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Label fx:id="appointmentLabel" alignment="CENTER" layoutX="320.0" layoutY="213.0" prefHeight="27.0" prefWidth="266.0" textFill="#dd1010">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

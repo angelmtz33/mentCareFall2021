@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: CCE6F4;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Main">
+   <left>
+      <AnchorPane prefHeight="84.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label fx:id="nameLabel" alignment="CENTER" layoutX="111.0" layoutY="93.0" prefHeight="45.0" prefWidth="388.0" text="Welcome: " textFill="#168021">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Label>
+            <Label layoutX="125.0" layoutY="14.0" text="This is the Patient Scene" textFill="#2135eb">
+               <font>
+                  <Font size="33.0" />
+               </font>
+            </Label>
+            <Button layoutX="346.0" layoutY="340.0" mnemonicParsing="false" onAction="#logout" prefHeight="39.0" prefWidth="196.0" text="log out" textFill="#f51f1f">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button layoutX="67.0" layoutY="227.0" mnemonicParsing="false" onAction="#goToPersonalUpcoming" prefHeight="35.0" prefWidth="194.0" text="Upcoming Appointment">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <Button layoutX="346.0" layoutY="227.0" mnemonicParsing="false" onAction="#goToPersonalRecord" prefHeight="35.0" prefWidth="195.0" text="Personal Record">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <Button layoutX="67.0" layoutY="167.0" mnemonicParsing="false" onAction="#editAppointment" prefHeight="35.0" prefWidth="189.0" text="Edit Appointments">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <Button layoutX="346.0" layoutY="167.0" mnemonicParsing="false" onAction="#editPatientInfoP" prefHeight="14.0" prefWidth="194.0" text="Edit Personal Info">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <Button layoutX="69.0" layoutY="286.0" mnemonicParsing="false" onAction="#createAppointment" prefHeight="35.0" prefWidth="190.0" text="Create Appointment">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <Button layoutX="348.0" layoutY="286.0" mnemonicParsing="false" onAction="#patientMessages" prefHeight="35.0" prefWidth="190.0" text="Messages">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </left>
+</BorderPane>

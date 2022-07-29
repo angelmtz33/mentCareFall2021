@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="659.0" style="-fx-background-color: CCE6F4;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Main">
+   <children>
+      <Label layoutX="149.0" layoutY="24.0" text="Create an Appointment" textFill="#2a1697">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Label>
+      <Button layoutX="14.0" layoutY="351.0" mnemonicParsing="false" onAction="#backToPatientMain" text="Cancel" textFill="#d31818">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button layoutX="571.0" layoutY="351.0" mnemonicParsing="false" onAction="#logout" text="logout">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <DatePicker fx:id="appointmentDate" layoutX="254.0" layoutY="104.0" promptText="Enter a date" />
+      <ChoiceBox fx:id="appointmentTime" layoutX="318.0" layoutY="193.0" prefHeight="31.0" prefWidth="159.0" />
+      <Label layoutX="206.0" layoutY="193.0" text="Pick a time" textFill="#1933ab">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Button layoutX="269.0" layoutY="146.0" mnemonicParsing="false" onAction="#displayTimes" text="Get available times">
+         <font>
+            <Font size="15.0" />
+         </font></Button>
+      <Button layoutX="225.0" layoutY="279.0" mnemonicParsing="false" onAction="#pushAppointment" text="Create Appointment" textFill="#319a49">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Label fx:id="createAppLabel" alignment="CENTER" layoutX="55.0" layoutY="236.0" prefHeight="43.0" prefWidth="550.0" textFill="#dd1f1f">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

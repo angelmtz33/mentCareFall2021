@@ -1,0 +1,42 @@
+11-19-2021
+10:00-AM
+Temp: 20   P-Rate: 20   R-Rate: 20   B-Press: 20
+Lung Scan: nothing found
+Noticed the patient was experiencing constant difficulty to breath
+None at the moment
+angel1 
+12-01-2021
+11:00-AM
+Temp: 30   P-Rate: 30   R-Rate: 30   B-Press: 30
+Blod test; mild infection found
+None at the moment
+Ibuprofen: two pills every 8 hours
+angel1 
+11-20-2021
+10:00-AM
+Temp: 30   P-Rate: 30   R-Rate: 30   B-Press: 30
+Lung Scan: nothing was found
+None at the moment
+Cough drops with ibuprofen
+angel3 
+11-18-2021
+10:00-AM
+Temp: 30   P-Rate: 30   R-Rate: 30   B-Press: 30
+Lung Sca: nothing found
+None at the moment
+cough drops
+fire1 
+11-27-2021
+11:00-AM
+Temp: 10   P-Rate: 10   R-Rate: 10   B-Press: 10
+Blood Test: came covid positive
+None at the moment
+A bunch of hersheys
+fire1 ddd
+11-29-2021
+12:00-PM
+Temp: 20   P-Rate: 20   R-Rate: 20   B-Press: 20
+None
+None
+None
+fire1 ddd
