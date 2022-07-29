@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: CCE6F4;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Main">
+   <children>
+      <Label layoutX="167.0" layoutY="14.0" text="Patient - Messages" textFill="#1f0ca8">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Label>
+      <Button layoutX="464.0" layoutY="355.0" mnemonicParsing="false" onAction="#backToPatientMain" text="Back to Menu" textFill="#d72b2b">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="23.0" layoutY="95.0" mnemonicParsing="false" onAction="#displayMessage" text="Display Message" textFill="#3240b9" />
+      <Label fx:id="messageLabel" layoutX="23.0" layoutY="140.0" prefHeight="26.0" prefWidth="563.0" textFill="#128618">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Button layoutX="531.0" layoutY="231.0" mnemonicParsing="false" onAction="#sendMessage" prefWidth="55.0" text="Send" textFill="#2bbc39">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Label layoutX="23.0" layoutY="200.0" text="Send a new message:" textFill="#3342f5">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <TextField fx:id="message" layoutX="19.0" layoutY="234.0" prefHeight="25.0" prefWidth="500.0" promptText="Type a new Message here" />
+      <Label fx:id="messageWarning" alignment="CENTER_RIGHT" layoutX="137.0" layoutY="269.0" prefHeight="26.0" prefWidth="449.0" textFill="#da2222">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="noMessages" layoutX="137.0" layoutY="95.0" prefHeight="26.0" prefWidth="441.0" textFill="#da2222">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="messageSuccess" alignment="CENTER" layoutX="13.0" layoutY="295.0" prefHeight="30.0" prefWidth="563.0" textFill="#1dbc32">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
